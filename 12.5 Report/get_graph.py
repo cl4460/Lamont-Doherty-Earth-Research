@@ -161,6 +161,6 @@ def split_track_by_dateline(lons, lats):
 
 if __name__ == "__main__":
     # Set input and output directories
-    data_dir = '/home/cl4460/NeuralGCM_1.4/processed_results'  # Modify to your data directory
-    processed_file_pattern = '*_processed.csv'  # Ensure it matches all _processed.csv files
+    data_dir = '/home/cl4460/NeuralGCM_1.4/processed_results'  
+    processed_file_pattern = '*_processed.csv'  
     plot_all_storm_tracks(data_dir, processed_file_pattern)
